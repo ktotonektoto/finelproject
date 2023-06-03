@@ -1,0 +1,78 @@
+h2{
+	    color: #DF0000;
+        text-align:center;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Pacifico', cursive;
+}
+body{
+	background-color:#000000;
+}
+
+ul {
+ list-style-type: square;
+ background: #3399ff;
+ display:flex;
+ padding: 15px;
+ font-family: 'Anton', sans-serif;
+ font-family: 'Pacifico', cursive;
+}
+
+ul li {
+ background: #cce5ff; 
+ padding: 5px; 
+ margin: 5px 0 0 35px;
+ list-style-type:none;
+ font-family: 'Anton', sans-serif;
+ font-family: 'Pacifico', cursive;
+}
+ol {
+ background: #ff9999; 
+ padding: 15px;
+ font-family: 'Anton', sans-serif;
+ font-family: 'Pacifico', cursive;
+}
+ol li {
+ background: #ffe5e5; 
+ padding: 5px; 
+ margin: 5px 0 0 35px;
+ font-family: 'Anton', sans-serif;
+ font-family: 'Pacifico', cursive;
+}
+
+
+
+img{
+	width:500px;
+	height:500px;
+	background-color: #6C0000;
+	padding: 10px;
+	margin: 5px 0 0 35px;
+}
+
+.cld{
+	display:flex;
+}
+
+img:hover{
+ transform:scale(2)
+}
+p{
+ color:red;
+ background: #cce5ff; 
+ margin: 5px 0 0 35px;
+ padding: 10px;
+ font-family: 'Anton', sans-serif;
+ font-family: 'Pacifico', cursive;
+}
+
+input[type="checkbox"] {
+    content: url('http://klublady.ru/uploads/posts/2022-02/1644922559_6-klublady-ru-p-tort-so-svechami-v-temnote-foto-11.jpg');
+    appearance: none;
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+input[type="checkbox"]:checked {
+    content: url("https://images.fineartamerica.com/images-medium-large-5/birthday-cake-candle-smoke-joe-belanger.jpg");
+}
